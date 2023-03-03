@@ -1,0 +1,177 @@
+.bar{
+    margin: 30px 0;
+}
+
+/* css banwidth */
+.bar-banwidth>div{
+    height: 45px;
+    background-color: #e3e3e3;
+    margin: 30px 0;
+}
+.bar-banwidth{
+    display: flex;
+}
+.bar-banwidth .label{
+    width: 150px;
+    background-color: #de4646;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+}
+.bar-banwidth .process{
+    flex: 1;
+}
+.bar-banwidth .percent{
+    width: 20%;
+    background-color: #ef5b5b;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    line-height: 45px;
+}
+.bar-banwidth .empty{
+    flex: 1;
+}
+/* css storage */
+.bar-storage>div{
+    height: 45px;
+    background-color: #e3e3e3;
+    margin: 30px 0;
+}
+.bar-storage{
+    display: flex;
+}
+
+.bar-storage .label{
+    width: 150px;
+    background-color: #4650de;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+}
+
+.bar-storage .process{
+    flex: 1;
+}
+
+.bar-storage .percent{
+    width: 50%;
+    background-color: #5b65ef;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    line-height: 45px;
+}
+
+.bar-storage .empty{
+    flex: 1;
+}
+
+/* css users */
+.bar-users>div{
+    height: 45px;
+    background-color: #e3e3e3;
+    margin: 30px 0;
+}
+.bar-users{
+    display: flex;
+}
+
+.bar-users .label{
+    width: 150px;
+    background-color: #edf76d;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    color: black;
+}
+
+.bar-users .process{
+    flex: 1;
+}
+
+.bar-users .percent{
+    width: 70%;
+    background-color: #efe05b;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    line-height: 45px;
+    color: black;
+}
+
+.bar-users .empty{
+    flex: 1;
+}
+
+/* css visitor */
+
+.bar-visitors>div{
+    height: 45px;
+    background-color: #e3e3e3;
+    margin: 30px 0;
+}
+.bar-visitors{
+    display: flex;
+}
+
+.bar-visitors .label{
+    width: 150px;
+    background-color: #19a548;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    color: black;
+}
+
+.bar-visitors .process{
+    flex: 1;
+}
+
+.bar-visitors .percent{
+    width: 30%;
+    background-color: #60ef5b;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    line-height: 45px;
+    color: black;
+}
+
+.bar-visitors .empty{
+    flex: 1;
+}
+/* funny animation */
+
+.streetcircle {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/15979/citywall.png) 0 -5px repeat-x;
+    height: 240px;
+    width: 240px;
+    margin: 50px auto 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 123px;
+    border: 5px solid white;
+    box-shadow: 0 5px 20px rgba(black, 0.5);
+    animation: wallslide 4s linear infinite;  
+  }
+  
+  .hoodie {
+    animation: run-cycle 0.6s steps(6) infinite;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/15979/running.png) 0 0 no-repeat; 
+    height: 160px;
+    width: 112px;
+    position: absolute;
+    bottom: 50px;
+    left: 66px;
+    margin: 0 auto;
+  }
+  
+  @keyframes run-cycle {  
+    0%   { background-position: 0 0; } 
+    100% { background-position: -672px 0; }
+  }
+  @keyframes wallslide {  
+    0%   { background-position: 0 -5px; } 
+    100% { background-position: -1053px -5px; }
+  }
