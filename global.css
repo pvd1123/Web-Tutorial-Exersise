@@ -34,8 +34,26 @@ header, footer {
 .header_wrapper {
     display: flex;
     justify-content: space-between;
+    
 }
+nav{
+    display: block;
+    box-sizing: inherit;
+    background-color: #ac3333;
+}
+
 nav>ul{
     display: flex;
     list-style: none;
+    column-gap: 15px;
 }
+
+nav>ul>li{
+    padding: 10px;
+}
+
+logo{
+    cursor: pointer;
+    box-sizing: inherit;
+}
+
