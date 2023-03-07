@@ -42,11 +42,18 @@ nav>ul{
     list-style: none;
     column-gap: 10px;
     color: black;
-    font-size: xx-large;
+    font-size: large;
 }
 .logo>a>img{
     width: 100px;
     height: 80px;
     padding-left: 15px;
+}
+
+.product>a>img{
+    height: 400px;
+    width: 450px;
+    padding-left: 160px;
+    padding-top: 100px;
 }
 
